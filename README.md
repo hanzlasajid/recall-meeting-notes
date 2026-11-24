@@ -1,4 +1,4 @@
-# Recall
+# Recall - Meeting Notes
 
 Turn a recorded call into **subtitles, a transcript, key screenshots and a written meeting report**, by dropping the video on an icon.
 
@@ -51,10 +51,10 @@ For a Claude report you also need an **Anthropic API key** (see [section 6](#6-c
 **With Git:**
 
 ```bash
-git clone https://github.com/hanzlasajid/recall.git
+git clone https://github.com/hanzlasajid/recall-meeting-notes.git recall
 ```
 
-**Without Git:** on the GitHub page click **Code → Download ZIP**, then unzip it.
+**Without Git:** on the GitHub page click **Code → Download ZIP**, unzip it, and rename the folder `recall-meeting-notes-main` to `recall`.
 
 Put the folder somewhere permanent, for example `C:\Tools\recall` on Windows or `~/Applications/recall` on a Mac. Recall runs from this folder, so don't move it after setup (if you do, run the setup again).
 
