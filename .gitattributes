@@ -1,0 +1,6 @@
+# Windows scripts need CRLF, macOS scripts need LF - keep them that way on every checkout.
+*.bat          text eol=crlf
+*.command      text eol=lf
+*.applescript  text eol=lf
+*.py           text eol=lf
+*.md           text eol=lf

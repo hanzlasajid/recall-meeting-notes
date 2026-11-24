@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+Recall.app/
+*_notes/
+*.srt
+.DS_Store
+
+# Private session notes for Claude Code - never commit
+handoff/

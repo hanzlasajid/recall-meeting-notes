@@ -1,0 +1,9 @@
+faster-whisper>=1.1
+av>=11
+numpy
+pillow
+psutil
+markdown
+anthropic>=0.40
+# Apple Silicon Macs: runs Whisper on the Mac's GPU (setup_mac.command installs it)
+mlx-whisper; sys_platform == "darwin" and platform_machine == "arm64"
